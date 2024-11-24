@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashionista - Trendy Clothing</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000000;
+            background-color: #3f3e3e;
+        }
+
+        /* Navbar Styling */
+        nav {
+            background-color: #fefefe;
+            color: #000000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 1.5rem;
+        }
+
+        nav ul li a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Banner Section */
+        .banner {
+            background-image: url('banner.jpg'); /* Replace with an actual image URL */
+            background-size: cover;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 6rem 1rem;
+        }
+
+        .banner h2 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        /* About Section */
+        .about {
+            padding: 2rem;
+            text-align: center;
+            background-color: #eaeaea;
+        }
+
+        .about h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .about p {
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Featured Products Section */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2rem;
+        }
+
+        .product {
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 1rem;
+            width: 300px;
+            text-align: center;
+            padding: 1rem;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            font-size: 1.5rem;
+            margin: 1rem 0 0.5rem;
+        }
+
+        .product p {
+            color: #666;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            padding: 2rem;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial {
+            margin: 1rem auto;
+            max-width: 600px;
+            font-style: italic;
+            color: #555;
+        }
+
+        .testimonial-author {
+            font-weight: bold;
+            margin-top: 0.5rem;
+            color: #333;
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: #222;
+            color: #fff;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .contact h3 {
+            font-size: 2rem;
+        }
+
+        .contact p {
+            font-size: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #ffffff;
+            color: #000000;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #000000;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h1>Fashionista</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="banner" id="home">
+        <h2>Fall Collection 2024</h2>
+        <p>Discover the latest trends and exclusive designs.</p>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Fashionista</h2>
+        <p>Fashionista is dedicated to bringing the latest fashion trends to you. Our collection is crafted with care and attention to detail, offering you a selection that stands out for its quality and style. Join us on a journey to redefine your style with pieces that are bold, comfortable, and uniquely you.</p>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="products" id="products">
+        <h2 style="text-align:center; font-size:2.5rem; margin-bottom:1rem;">Featured Products</h2>
+        <div class="product">
+            <img src="C:\Users\user\Downloads\418-BbKunyL._AC_UY1100_.jpg" alt="Stylish Jacket">
+            <h3>Stylish Jacket</h3>
+            <p>$59.99</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\user\Downloads\str.jfif" alt="Casual T-Shirt">
+            <h3>Casual T-Shirt</h3>
+            <p>$29.99</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\user\Downloads\images (1).jfif" alt="Elegant Dress">
+            <h3>Elegant Dress</h3>
+            <p>$79.99</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\user\Downloads\images (2).jfif" alt="Denim Jeans">
+            <h3>Denim Jeans</h3>
+            <p>$49.99</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <h2>Customer Testimonials</h2>
+        <div class="testimonial">
+            <p>"Fashionista’s fall collection is simply amazing! I love the quality and the unique designs."</p>
+            <div class="testimonial-author">- Alex J.</div>
+        </div>
+        <div class="testimonial">
+            <p>"Absolutely in love with my new jacket from Fashionista! Great style and fit. Highly recommended!"</p>
+            <div class="testimonial-author">- Mia W.</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h3>Contact Us</h3>
+        <p>Email: support@fashionista.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: 123 Fashion St, New York, NY 10001</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Fashionista | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>
